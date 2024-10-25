@@ -1,3 +1,9 @@
+:root {
+--text-color: #DBE4EF;
+--card-front-color: #144480;
+--card-back-color: #00F4BF;
+}
+
 body{
     background-color: bisque;
     font-family: Bai Jamjuree;
@@ -16,8 +22,9 @@ body{
 }
 
 .cartao__conteudo {
-    text-align: center;
     background-color: aquamarine;
+    text-align: center;
+
     height: 100%;
 }
 
@@ -37,8 +44,7 @@ body{
 
 
 footer {
-    background-color: black;
-    color: white;
+   color: var 
     position: fixed;
     bottom: 0;
     width: 100%;
